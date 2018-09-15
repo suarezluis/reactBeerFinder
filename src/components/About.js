@@ -4,9 +4,15 @@ const About = () => {
   return (
     <div>
       <h1>About</h1>
+
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, sequi!
+        This WebbApp was developed by{" "}
+        <a href="http://www.suarezluis.com/" target="blank">
+          Luis Suarez
+        </a>{" "}
+        during the 4th Austin Diversity Hackathon.
       </p>
+      <img src="./img/hackathon.png" alt="" />
     </div>
   );
 };

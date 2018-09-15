@@ -1,9 +1,11 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Logo = () => {
   return (
     <nav className="nav-wrapper">
-      <a className="brand-logo center">Beer Connoisseur</a>
+      <Link to="/" className="brand-logo center">
+        Beer Connoisseur
+      </Link>
     </nav>
   );
 };
