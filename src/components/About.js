@@ -12,7 +12,7 @@ const About = () => {
         </a>{" "}
         during the 4th Austin Diversity Hackathon.
       </p>
-      <img src="./img/hackathon.png" alt="" />
+      <img src="img/hackathon.png" alt="" />
     </div>
   );
 };
