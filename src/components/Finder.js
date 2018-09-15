@@ -14,12 +14,12 @@ class Finder extends React.Component {
   }
 
   render() {
-    fetch(
-      "https://api.brewerydb.com/v2/search/?key=25e5612de5524a1bf68a0933f4b4562a&q=black&type=beer",
-      { method: "get", mode: "no-cors" }
-    ).then(function(response) {
-      console.log(response.json());
-    });
+    // fetch(
+    //   "https://api.brewerydb.com/v2/search/?key=25e5612de5524a1bf68a0933f4b4562a&q=black&type=beer",
+    //   { method: "get", mode: "no-cors" }
+    // ).then(function(response) {
+    //   console.log(response.json());
+    // });
 
     return (
       <div className="row container">
