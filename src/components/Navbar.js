@@ -7,13 +7,13 @@ const Navbar = () => {
       <div className="container">
         <ul className="right">
           <li>
-            <NavLink to="/finder">Finder</NavLink>
+            <NavLink to="/reactBeerFinder/finder">Finder</NavLink>
           </li>
           <li>
-            <NavLink to="/education">Education</NavLink>
+            <NavLink to="/reactBeerFinder/education">Education</NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/reactBeerFinder/about">About</NavLink>
           </li>
         </ul>
       </div>

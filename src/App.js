@@ -16,10 +16,10 @@ class App extends Component {
           <Logo />
           <Navbar />
 
-          <Route exact path="/" component={Home} />
-          <Route path="/finder" component={Finder} />
-          <Route path="/education" component={Education} />
-          <Route path="/about" component={About} />
+          <Route exact path="/reactBeerFinder/" component={Home} />
+          <Route path="/reactBeerFinder/finder" component={Finder} />
+          <Route path="/reactBeerFinder/education" component={Education} />
+          <Route path="/reactBeerFinder/about" component={About} />
         </div>
       </BrowserRouter>
     );

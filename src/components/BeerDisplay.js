@@ -1,7 +1,7 @@
 import React from "react";
 
 const BeerDisplay = props => {
-  if (props.beer !== null) {
+  if (props.beer !== undefined && props.beer !== null) {
     let {
       name,
       available,
@@ -18,12 +18,10 @@ const BeerDisplay = props => {
       <div>
         <div className="row">
           <div className="col s6">
-            <h3>{name}</h3>
+            <h4>{name}</h4>
             <p>
               <strong> Alcohol by volume: </strong>
-              {available.description !== undefined
-                ? available.description
-                : "Unkown"}
+              {available !== undefined ? available.description : "Unkown"}
             </p>
             <p>
               <strong> Alcohol by volume: </strong>
