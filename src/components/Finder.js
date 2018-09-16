@@ -11,7 +11,7 @@ class Finder extends React.Component {
       beers: [],
       selectedBeer: null
     };
-    this.beerSearch("miller lite");
+    this.beerSearch("Pacena");
   }
 
   render() {

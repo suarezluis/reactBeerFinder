@@ -54,11 +54,20 @@ const BeerDisplay = props => {
               <strong> Recomended glass: </strong>
               {glass !== undefined ? glass.name : "Not Available"}
             </p>
+            {glass !== undefined ? (
+              <img
+                className="glassImage"
+                src={`./img/glasses/${glass.id}.png`}
+                alt=""
+              />
+            ) : (
+              ""
+            )}
           </div>
           <div className="col s12 m6">
             <img
               className="beerLabel"
-              src={labels !== undefined ? labels.medium : "img/sorry.png"}
+              src={labels !== undefined ? labels.medium : "./img/sorry.png"}
               alt=""
             />
           </div>

@@ -23,7 +23,7 @@ p {
 
 .beerLabel {
   display: block;
-  margin: auto;
+  margin: 10px auto;
 }
 
 .finder,
@@ -75,4 +75,11 @@ h6 {
 
 .btn {
   margin: 5px;
+  border-radius: 10px;
+}
+
+.glassImage {
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
 }
