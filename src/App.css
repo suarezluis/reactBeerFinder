@@ -1,8 +1,74 @@
-.beerLabel {
-  max-height: 100%;
+.brand-logo {
   width: 100%;
+  color: white;
+  font-family: "Titan One", cursive;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
 }
 
-.col {
-  height: 100%;
+p {
+  margin: 0 15px;
+}
+
+.introImage {
+  max-width: 100%;
+  height: 82vh;
+  margin: 0 auto;
+  display: block;
+}
+
+.beerLabel {
+  display: block;
+  margin: auto;
+}
+
+.finder,
+.definitions,
+.about {
+  background-color: white;
+  min-height: 85vh;
+  margin-top: 9px !important;
+  border-radius: 10px;
+  padding-bottom: 5vh;
+}
+input {
+  text-align: center;
+}
+
+.about,
+.definitions {
+  text-align: center;
+}
+
+.definitions p {
+  text-align: justify;
+}
+.hackImage {
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.page-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.page-footer a {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 1.2em;
+}
+
+h6 {
+  text-align: left;
+  margin: 10px;
 }

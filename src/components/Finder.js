@@ -16,7 +16,7 @@ class Finder extends React.Component {
 
   render() {
     return (
-      <div className="row container">
+      <div className="row container finder">
         <SearchBar
           term={this.state.name}
           onSearchTermChange={term => this.beerSearch(term)}

@@ -17,10 +17,10 @@ const BeerDisplay = props => {
     return (
       <div>
         <div className="row">
-          <div className="col s6">
+          <div className="col s12 m6">
             <h4>{name}</h4>
             <p>
-              <strong> Alcohol by volume: </strong>
+              <strong> Available: </strong>
               {available !== undefined ? available.description : "Unkown"}
             </p>
             <p>
@@ -55,7 +55,7 @@ const BeerDisplay = props => {
               {glass !== undefined ? glass.name : "Not Available"}
             </p>
           </div>
-          <div className="col s6">
+          <div className="col s12 m6">
             <img
               className="beerLabel"
               src={labels !== undefined ? labels.medium : "img/sorry.png"}

@@ -5,9 +5,9 @@ import Logo from "./components/Logo";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Finder from "./components/Finder";
-import Education from "./components/Education";
+import Definitions from "./components/Definitions";
 import About from "./components/About";
-
+import Footer from "./components/Footer";
 class App extends Component {
   render() {
     return (
@@ -15,11 +15,11 @@ class App extends Component {
         <div className="App">
           <Logo />
           <Navbar />
-
           <Route exact path="/reactBeerFinder/" component={Home} />
           <Route path="/reactBeerFinder/finder" component={Finder} />
-          <Route path="/reactBeerFinder/education" component={Education} />
+          <Route path="/reactBeerFinder/Definitions" component={Definitions} />
           <Route path="/reactBeerFinder/about" component={About} />
+          <Footer />
         </div>
       </BrowserRouter>
     );
