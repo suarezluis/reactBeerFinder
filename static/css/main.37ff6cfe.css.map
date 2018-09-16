@@ -1,1 +1,0 @@
-{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,WACE,gBACA,UAAY,CAGd,KACE,WAAa","file":"static/css/main.37ff6cfe.css","sourcesContent":[".beerLabel {\n  max-height: 100%;\n  width: 100%;\n}\n\n.col {\n  height: 100%;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/App.css"],"sourceRoot":""}
