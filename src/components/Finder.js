@@ -24,6 +24,7 @@ class Finder extends React.Component {
         <Results
           selectedBeer={this.state.selectedBeer}
           beers={this.state.beers}
+          onBeerSelect={selectedBeer => this.setState({ selectedBeer })}
         />
       </div>
     );
@@ -37,9 +38,7 @@ class Finder extends React.Component {
         self.setState({
           name: name,
           beers:
-            typeof response.data.slice(0, 5) === "array"
-              ? response.data.slice(0, 5)
-              : [],
+            typeof response.data != undefined ? response.data.slice(0, 5) : [],
           selectedBeer: response.data[0]
         });
         console.log(response.data.slice(0, 5));
