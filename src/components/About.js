@@ -12,7 +12,7 @@ const About = () => {
         </a>{" "}
         during the 4th Austin Diversity Hackathon.
       </p>
-      <img className="hackImage" src="/img/hackathon.png" alt="" />
+      <img className="hackImage" src="./img/hackathon.png" alt="" />
       <br />
       <p className="container">
         This hackathon is a celebration of diversity. Anyone who supports
