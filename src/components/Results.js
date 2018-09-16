@@ -1,7 +1,6 @@
 import React from "react";
 import BeerDisplay from "./BeerDisplay";
 const Results = props => {
-  console.log("beers", typeof props.beers);
   let beerList = [];
   if (props.beers.length > 0) {
     beerList = props.beers.map(beer => {

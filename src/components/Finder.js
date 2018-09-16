@@ -38,10 +38,9 @@ class Finder extends React.Component {
         self.setState({
           name: name,
           beers:
-            typeof response.data != undefined ? response.data.slice(0, 5) : [],
+            typeof response.data !== undefined ? response.data.slice(0, 5) : [],
           selectedBeer: response.data[0]
         });
-        console.log(response.data.slice(0, 5));
       })
       .catch(function(error) {
         console.log(error);

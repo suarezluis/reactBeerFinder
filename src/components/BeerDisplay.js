@@ -88,11 +88,6 @@ const BeerDisplay = props => {
             </p>
           </div>
         </div>
-
-        {typeof props.beer === "object"
-          ? console.log("props", props.beer.name)
-          : null}
-        {props.beer !== null ? console.log("props", props.beer.id) : null}
       </div>
     );
   } else {
