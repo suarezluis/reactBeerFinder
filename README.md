@@ -1,3 +1,5 @@
+**Winner of "Most Learned" price**
+
 #Deployed link: https://suarezluis.github.io/reactBeerFinder/
 
 This WebbApp was developed by Luis Suarez during the 4th Austin Diversity Hackathon.
